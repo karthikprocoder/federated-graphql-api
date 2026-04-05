@@ -1,0 +1,7 @@
+version: 1
+
+subgraphs:
+  - name: product
+    routing_url: http://localhost:8081/query
+    schema:
+      subgraph_url: http://localhost:8081/query
