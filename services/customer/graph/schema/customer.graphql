@@ -1,0 +1,5 @@
+type Customer @key(fields: "id") {
+    id: ID!
+    name: String!
+    email: String!
+}
