@@ -1,6 +1,7 @@
 ## Steps to start
 
-1. Start product service: `go run services/product/cmd/server/server.go`
+1. Start all the services: `go run services/product/cmd/server/server.go`
+2. Compose schema `npx wgc router compose -i  graph.yaml > config.json`
 2. Start the gateway: 
 ```
 docker run \
